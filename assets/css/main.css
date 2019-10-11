@@ -259,7 +259,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 35em;
+		width: 60em;
 	}
 
 		.container.xsmall {
@@ -291,6 +291,7 @@ input, select, textarea {
 			.container {
 				width: 80% !important;
 				max-width: 100% !important;
+
 			}
 
 		}
@@ -2632,7 +2633,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cd1a8;
+			background-color: #4E5ED4;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -2643,7 +2644,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9ed8b6;
+				background-color: #6572D4;
 			}
 
 			input[type="submit"].primary:active,
@@ -2651,7 +2652,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7aca9a;
+				background-color: #8E96D5;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -2714,8 +2715,8 @@ input, select, textarea {
 
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
-			background: rgba(255, 255, 255, 0.95);
-			box-shadow: inset 0 1px 0 0 #dddddd;
+			background: rgba(255, 255, 255, 0.75);
+			box-shadow: inset 0 px 0 0 #dddddd;
 		}
 
 			.main .container:before {
@@ -2738,7 +2739,7 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgba(144, 144, 144, 70);
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2814,7 +2815,7 @@ input, select, textarea {
 		#header .container {
 			background: rgba(255, 255, 255, 0.95);
 			bottom: 0;
-			left: 50%;
+			left: 35.2%;
 			margin-left: -17.5em;
 			padding: 2.5em;
 			position: absolute;
@@ -2908,7 +2909,7 @@ input, select, textarea {
 		/* Main */
 
 			.main .image.primary {
-				display: block;
+				
 				margin: 0 0 4em 0;
 			}
 
@@ -3116,4 +3117,17 @@ input, select, textarea {
 					padding: 0;
 				}
 
+	}
+
+	/*---------- ADDS -----------*/
+
+	.responsive_retrato{
+		width: 30%;
+		border-radius:100%;
+    	border:0.5vw solid #666;
+    	margin-bottom: 5%;
+	}
+
+	.runn{
+		width: 35px;
 	}
